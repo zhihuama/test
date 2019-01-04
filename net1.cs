@@ -14,7 +14,7 @@ namespace test
         {
             while (true)
             {
-                ServiceDo.start();
+                ServiceDo.start();//调用
                 Thread.Sleep(1000 * 60 * 2);
             }
 
