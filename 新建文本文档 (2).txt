@@ -1,0 +1,19 @@
+     发送指令：    {
+            taskNo: "",// 任务编号
+            devno: "",
+            hostno: "",
+            identity: "",
+            cmdtype: "MK_ADD_OPENTIME",
+            cmddata: "{startTime:2018/12/19 10:00,endTime:2018/12/19 12:00}",
+          };
+
+
+	  //添加开放时间
+        MK_ADD_OPENTIME = 7004,
+        //删除开放时间
+        MK_DEL_OPENTIME = 7005,
+
+
+  TASK_RESULT|{"TaskProgress":"1100","TaskResult":"open success","TaskStatus":"1100","CmdType":2099,"TaskNo":"MK_TAKS_87f8-44d0-46b2-9055-6655","Hos
+
+浙江省宁波市慈溪市 附海镇 南园村 先锋电器南门门卫
